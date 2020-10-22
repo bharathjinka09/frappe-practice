@@ -1,0 +1,4 @@
+Backup Summary for library.test at 2020-10-22 18:00:03.752417
+Config  : ./library.test/private/backups/20201022_180003-library_test-site_config_backup.json   94.0B
+Database: ./library.test/private/backups/20201022_180003-library_test-database.sql.gz           238.3KiB
+Backup for Site library.test has been successfully completed

@@ -1,0 +1,15 @@
+2020-10-22 15:35:58,361 ERROR frappe New Exception collected with id: 2020-10-22 15:35:57.829124-127.0.0.1-d68
+Site: library.test
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'bharathjinka66@gmail.com', 'redirect_to': '', 'full_name': 'bharath'}
+2020-10-22 15:38:02,823 ERROR frappe New Exception collected with id: 2020-10-22 15:38:02.718647-127.0.0.1-edb
+Site: library.test
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.reset_password', 'user': 'bharathjinka66@gmail.com'}
+2020-10-22 15:38:52,741 ERROR frappe New Exception collected with id: 2020-10-22 15:38:52.691180-127.0.0.1-c45
+Site: library.test
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.reset_password', 'user': 'bharathjinka66@gmail.com'}
+2020-10-22 19:27:43,622 ERROR frappe New Exception collected with id: 2020-10-22 19:27:43.426211-127.0.0.1-721
+Site: library.test
+Form Dict: {'cmd': 'frappe.realtime.get_user_info'}
+2020-10-22 19:28:50,391 ERROR frappe New Exception collected with id: 2020-10-22 19:28:50.389106-127.0.0.1-73b
+Site: library.test
+Form Dict: {'cmd': 'frappe.www.login.login_via_google'}
