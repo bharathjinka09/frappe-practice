@@ -124,3 +124,10 @@
 2020-10-22 19:43:24,716 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench worker --queue long
 2020-10-22 19:43:24,722 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench worker --queue short
 2020-10-22 19:43:24,805 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench worker --queue default
+2020-10-22 19:58:08,993 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench start
+2020-10-22 19:58:12,469 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench worker --queue long
+2020-10-22 19:58:12,664 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench serve --port 8000
+2020-10-22 19:58:12,810 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench worker --queue short
+2020-10-22 19:58:12,820 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench worker --queue default
+2020-10-22 19:58:12,836 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench watch
+2020-10-22 19:58:12,908 INFO /home/mieone/Downloads/frappe-practice/venv/bin/bench schedule

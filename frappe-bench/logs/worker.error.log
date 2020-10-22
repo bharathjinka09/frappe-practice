@@ -979,3 +979,43 @@ redis.exceptionsredis.exceptions..ConnectionErrorConnectionError: : Error 111 co
   File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
     raise ConnectionError(self._error_message(e))
 redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+21:34:20 Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 936, in perform_job
+    rv = job.perform()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 684, in perform
+    self._result = self._execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 690, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 458, in sendmail
+    recipients=recipients, cc=cc, bcc=bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 210, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 147, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 229, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 289, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 936, in perform_job
+    rv = job.perform()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 684, in perform
+    self._result = self._execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 690, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 458, in sendmail
+    recipients=recipients, cc=cc, bcc=bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 210, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 147, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 229, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 289, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'

@@ -13,3 +13,9 @@ Form Dict: {'cmd': 'frappe.realtime.get_user_info'}
 2020-10-22 19:28:50,391 ERROR frappe New Exception collected with id: 2020-10-22 19:28:50.389106-127.0.0.1-73b
 Site: library.test
 Form Dict: {'cmd': 'frappe.www.login.login_via_google'}
+2020-10-22 21:59:10,089 ERROR frappe New Exception collected with id: 2020-10-22 21:59:09.252843-127.0.0.1-ee4
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2020-10-22 21:59:20,098 ERROR frappe New Exception collected with id: 2020-10-22 21:59:19.984839-127.0.0.1-d12
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
