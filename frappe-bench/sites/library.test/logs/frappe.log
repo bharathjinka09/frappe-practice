@@ -19,3 +19,95 @@ Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timest
 2020-10-22 21:59:20,098 ERROR frappe New Exception collected with id: 2020-10-22 21:59:19.984839-127.0.0.1-d12
 Site: library.test
 Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2020-10-23 10:50:15,589 ERROR frappe New Exception collected with id: 2020-10-23 10:50:14.169527-127.0.0.1-860
+Site: library.test
+Form Dict: {'doctype': 'Alice in wonderland', 'filters': '', 'cmd': 'frappe.client.get'}
+2020-10-23 10:51:06,067 ERROR frappe New Exception collected with id: 2020-10-23 10:51:06.062296-127.0.0.1-b41
+Site: library.test
+Form Dict: {'doctype': 'hound-of-baskervilles', 'filters': '', 'cmd': 'frappe.client.get'}
+2020-10-23 10:53:08,648 ERROR frappe New Exception collected with id: 2020-10-23 10:53:08.162980-127.0.0.1-c22
+Site: library.test
+Form Dict: {'doctype': 'Alice in wonderland', 'filters': '', 'cmd': 'frappe.client.get'}
+2020-10-23 10:53:44,401 ERROR frappe New Exception collected with id: 2020-10-23 10:53:44.347869-127.0.0.1-d9e
+Site: library.test
+Form Dict: {'doctype': '3a6409be6d', 'filters': '', 'cmd': 'frappe.client.get'}
+2020-10-23 12:01:49,667 INFO frappe Checking incoming IMAP email server imap.gmail.com:143 ssl=0...
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"imap.gmail.com","smtp_server":"smtp.gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2020-10-23 12:04:17,393 INFO frappe Checking incoming IMAP email server imap.gmail.com:993 ssl=0...
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":100,"use_tls":1,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"imap.gmail.com","incoming_port":"993","smtp_server":"smtp.gmail.com","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2020-10-23 12:04:27,650 WARNING frappe Incoming email account "imap.gmail.com" not correct
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":100,"use_tls":1,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"imap.gmail.com","incoming_port":"993","smtp_server":"smtp.gmail.com","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 36, in validate
+    test = imaplib.IMAP4(self.email_server, port=get_port(self))
+  File "/usr/lib/python3.7/imaplib.py", line 201, in __init__
+    self._connect()
+  File "/usr/lib/python3.7/imaplib.py", line 243, in _connect
+    self.welcome = self._get_response()
+  File "/usr/lib/python3.7/imaplib.py", line 1047, in _get_response
+    resp = self._get_line()
+  File "/usr/lib/python3.7/imaplib.py", line 1151, in _get_line
+    raise self.abort('socket error: EOF')
+imaplib.IMAP4.abort: socket error: EOF
+2020-10-23 12:05:58,028 INFO frappe Checking incoming POP3 email server pop.gmail.com:995 ssl=1...
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":100,"use_tls":1,"use_ssl_for_outgoing":1,"append_emails_to_sent_folder":1,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","incoming_port":"995","smtp_server":"smtp.gmail.com","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2020-10-23 12:05:58,924 INFO frappe Checking outgoing SMTPS email server smtp.gmail.com:587...
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":100,"use_tls":1,"use_ssl_for_outgoing":1,"append_emails_to_sent_folder":1,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","incoming_port":"995","smtp_server":"smtp.gmail.com","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2020-10-23 12:05:59,434 WARNING frappe Outgoing email account "smtp.gmail.com" not correct
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":100,"use_tls":1,"use_ssl_for_outgoing":1,"append_emails_to_sent_folder":1,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","incoming_port":"995","smtp_server":"smtp.gmail.com","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 68, in validate
+    cint(self.smtp_port) or None)
+  File "/usr/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/usr/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.7/smtplib.py", line 1039, in _get_socket
+    server_hostname=self._host)
+  File "/usr/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:1091)
+2020-10-23 12:06:09,290 INFO frappe Checking incoming POP3 email server pop.gmail.com:995 ssl=1...
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":100,"use_tls":1,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":1,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","incoming_port":"995","smtp_server":"smtp.gmail.com","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2020-10-23 12:06:10,814 WARNING frappe Incoming email account "imap.gmail.com" not correct
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"imap.gmail.com","smtp_server":"smtp.gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 36, in validate
+    test = imaplib.IMAP4(self.email_server, port=get_port(self))
+  File "/usr/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/usr/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/usr/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/usr/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+2020-10-23 12:06:11,328 INFO frappe Checking outgoing SMTP email server smtp.gmail.com:587 STARTTLS=1...
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"New Email Domain 1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":100,"use_tls":1,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":1,"email_id":"bharathjinka66@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","incoming_port":"995","smtp_server":"smtp.gmail.com","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2020-10-23 12:31:56,685 ERROR frappe New Exception collected with id: 2020-10-23 12:31:56.558405-127.0.0.1-1cf
+Site: library.test
+Form Dict: {'cmd': 'frappe.realtime.get_user_info'}
+2020-10-23 16:18:56,363 ERROR frappe New Exception collected with id: 2020-10-23 16:18:55.787936-127.0.0.1-fda
+Site: library.test
+Form Dict: {'cmd': 'frappe.realtime.get_user_info'}
+2020-10-23 21:19:06,938 ERROR frappe New Exception collected with id: 2020-10-23 21:19:06.796350-127.0.0.1-8f2
+Site: library.test
+Form Dict: {'cmd': 'frappe.realtime.get_user_info'}

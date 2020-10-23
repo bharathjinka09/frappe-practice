@@ -2,3 +2,19 @@ Backup Summary for library.test at 2020-10-22 18:00:03.752417
 Config  : ./library.test/private/backups/20201022_180003-library_test-site_config_backup.json   94.0B
 Database: ./library.test/private/backups/20201022_180003-library_test-database.sql.gz           238.3KiB
 Backup for Site library.test has been successfully completed
+Backup Summary for library.test at 2020-10-23 12:00:10.596319
+Config  : ./library.test/private/backups/20201023_120007-library_test-site_config_backup.json   161.0B
+Database: ./library.test/private/backups/20201023_120007-library_test-database.sql.gz           279.6KiB
+Backup for Site library.test has been successfully completed
+Backup Summary for library.dev at 2020-10-23 18:00:08.216139
+Config  : ./library.dev/private/backups/20201023_180005-library_dev-site_config_backup.json     94.0B
+Database: ./library.dev/private/backups/20201023_180005-library_dev-database.sql.gz             217.9KiB
+Backup for Site library.dev has been successfully completed
+File is old
+File is old
+File is recent
+File is recent
+Backup Summary for library.test at 2020-10-23 18:00:08.772438
+Config  : ./library.test/private/backups/20201023_180008-library_test-site_config_backup.json   161.0B
+Database: ./library.test/private/backups/20201023_180008-library_test-database.sql.gz           290.2KiB
+Backup for Site library.test has been successfully completed

@@ -1,0 +1,30 @@
+2020-10-23 12:23:32,410 ERROR scheduler Exception in Enqueue Events for Site library.dev
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/database/database.py", line 569, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 819, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
+    meta = Meta(doctype)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/model/meta.py", line 83, in __init__
+    super(Meta, self).__init__("DocType", doctype)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
+    self.load_from_db()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/model/meta.py", line 88, in load_from_db
+    super(Meta, self).load_from_db()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/model/document.py", line 156, in load_from_db
+    frappe.throw(_("{0} {1} not found").format(_(self.doctype), self.name), frappe.DoesNotExistError)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 413, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 392, in msgprint
+    _raise_exception()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 340, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.DoesNotExistError: DocType System Settings not found
+

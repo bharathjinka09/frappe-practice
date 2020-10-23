@@ -2,6 +2,7 @@
  "auto_update": false,
  "background_workers": 1,
  "developer_mode": 1,
+ "dns_multitenant": true,
  "file_watcher_port": 6787,
  "frappe_user": "mieone",
  "gunicorn_workers": 4,

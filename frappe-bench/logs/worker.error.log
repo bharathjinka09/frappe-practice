@@ -1019,3 +1019,1030 @@ Traceback (most recent call last):
   File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 289, in set_incoming_outgoing_accounts
     doc.db_set("email_account", doc.outgoing_email_account.name)
 AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 198, in _read_from_socket
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 198, in _read_from_socket
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 198, in _read_from_socket
+        data = recv(self._sock, socket_read_size)data = recv(self._sock, socket_read_size)
+
+      File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/_compat.py", line 72, in recv
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/_compat.py", line 72, in recv
+data = recv(self._sock, socket_read_size)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/_compat.py", line 72, in recv
+        return sock.recv(*args, **kwargs)return sock.recv(*args, **kwargs)
+
+    ConnectionResetErrorConnectionResetErrorreturn sock.recv(*args, **kwargs): : 
+[Errno 104] Connection reset by peer[Errno 104] Connection reset by peer
+
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+ConnectionResetErrorTraceback (most recent call last):
+Traceback (most recent call last):
+:   File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+[Errno 104] Connection reset by peer  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+            "__main__", mod_spec)"__main__", mod_spec)"__main__", mod_spec)
+
+
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+        exec(code, run_globals)    exec(code, run_globals)
+exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+            main()main()main()
+
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+            click.Group(commands=commands)(prog_name='bench')click.Group(commands=commands)(prog_name='bench')click.Group(commands=commands)(prog_name='bench')
+
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+        return self.main(*args, **kwargs)return self.main(*args, **kwargs)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+      File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+        rv = self.invoke(ctx)
+rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+        return ctx.invoke(self.callback, **ctx.params)return ctx.invoke(self.callback, **ctx.params)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return callback(*args, **kwargs)
+      File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+      File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+          File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3894, in _execute_transaction
+    return execute(conn, stack, raise_on_error)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3894, in _execute_transaction
+    return execute(conn, stack, raise_on_error)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3978, in parse_response
+    self.parse_response(connection, '_')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3978, in parse_response
+    self, connection, command_name, **options)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 915, in parse_response
+    self.parse_response(connection, '_')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3978, in parse_response
+    response = connection.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 739, in read_response
+    self, connection, command_name, **options)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 915, in parse_response
+    response = self._parser.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 256, in readline
+    response = connection.read_response()
+      File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 739, in read_response
+self._read_from_socket()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 223, in _read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    response = self._parser.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 256, in readline
+    self, connection, command_name, **options)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 915, in parse_response
+    self._read_from_socket()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 223, in _read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    response = connection.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 223, in _read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 139, in start_worker
+    with frappe.init_site():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 263, in __enter__
+    init(self.site)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 187, in init
+    setup_module_map()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 1052, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 918, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 876, in get_module
+    return importlib.import_module(modulename)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ni_dark_theme'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 139, in start_worker
+    with frappe.init_site():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 263, in __enter__
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    init(self.site)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 187, in init
+    setup_module_map()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 1052, in setup_module_map
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    for module in get_module_list(app):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 918, in get_module_list
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 876, in get_module
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return importlib.import_module(modulename)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ni_dark_theme'
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 139, in start_worker
+    with frappe.init_site():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 263, in __enter__
+    init(self.site)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 187, in init
+    setup_module_map()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 1052, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 918, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 876, in get_module
+    return importlib.import_module(modulename)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ni_dark_theme'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 139, in start_worker
+    with frappe.init_site():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 263, in __enter__
+    init(self.site)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 187, in init
+    setup_module_map()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 1052, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 918, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 876, in get_module
+    return importlib.import_module(modulename)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ni_dark_theme'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 139, in start_worker
+    with frappe.init_site():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 263, in __enter__
+    init(self.site)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 187, in init
+    setup_module_map()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 1052, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 918, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 876, in get_module
+    return importlib.import_module(modulename)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ni_dark_theme'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 139, in start_worker
+    with frappe.init_site():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 263, in __enter__
+    init(self.site)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 187, in init
+    setup_module_map()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 1052, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 918, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 876, in get_module
+    return importlib.import_module(modulename)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ni_dark_theme'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 139, in start_worker
+    with frappe.init_site():
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 263, in __enter__
+    init(self.site)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 187, in init
+    setup_module_map()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 1052, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 918, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/__init__.py", line 876, in get_module
+    return importlib.import_module(modulename)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ni_dark_theme'
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    sock = self._connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    sock = self._connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    raise err
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    raise err
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+    Traceback (most recent call last):
+sock.connect(socket_address)  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+    Traceback (most recent call last):
+sock.connect(socket_address)  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+          File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+"__main__", mod_spec)"__main__", mod_spec)
+
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+        exec(code, run_globals)exec(code, run_globals)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+        main()main()
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+        click.Group(commands=commands)(prog_name='bench')click.Group(commands=commands)(prog_name='bench')
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+        return self.main(*args, **kwargs)return self.main(*args, **kwargs)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)    
+rv = self.invoke(ctx)  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+        return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+            start_worker(queue, quiet = quiet)start_worker(queue, quiet = quiet)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+          File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+            self.register_death()self.register_death()self.register_death()
+
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+        p.execute()p.execute()
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    self.shard_hint)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    self.shard_hint)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    connection.connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    connection.connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError    : raise ConnectionError(self._error_message(e))Error 111 connecting to localhost:11000. Connection refused.
+
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+12:10:14 Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 936, in perform_job
+    rv = job.perform()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 684, in perform
+    self._result = self._execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 690, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 458, in sendmail
+    recipients=recipients, cc=cc, bcc=bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 210, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 147, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 229, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 289, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 936, in perform_job
+    rv = job.perform()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 684, in perform
+    self._result = self._execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 690, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 458, in sendmail
+    recipients=recipients, cc=cc, bcc=bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 210, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 147, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 229, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 289, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+12:11:36 Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 936, in perform_job
+    rv = job.perform()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 684, in perform
+    self._result = self._execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 690, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 458, in sendmail
+    recipients=recipients, cc=cc, bcc=bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 210, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 147, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 229, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 289, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 936, in perform_job
+    rv = job.perform()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 684, in perform
+    self._result = self._execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/job.py", line 690, in _execute
+    return self.func(*self.args, **self.kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 458, in sendmail
+    recipients=recipients, cc=cc, bcc=bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 210, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 147, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 229, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 289, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 198, in _read_from_socket
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 198, in _read_from_socket
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 198, in _read_from_socket
+        data = recv(self._sock, socket_read_size)data = recv(self._sock, socket_read_size)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/_compat.py", line 72, in recv
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/_compat.py", line 72, in recv
+    data = recv(self._sock, socket_read_size)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/_compat.py", line 72, in recv
+            return sock.recv(*args, **kwargs)return sock.recv(*args, **kwargs)
+
+return sock.recv(*args, **kwargs)
+ConnectionResetErrorConnectionResetError: : [Errno 104] Connection reset by peerConnectionResetError[Errno 104] Connection reset by peer
+
+: 
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+[Errno 104] Connection reset by peerTraceback (most recent call last):
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+
+During handling of the above exception, another exception occurred:
+
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+          File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+"__main__", mod_spec)"__main__", mod_spec)
+
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+        exec(code, run_globals)exec(code, run_globals)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+            main()main()main()
+
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+        click.Group(commands=commands)(prog_name='bench')click.Group(commands=commands)(prog_name='bench')    
+
+click.Group(commands=commands)(prog_name='bench')  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+      File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4019, in execute
+        return execute(conn, stack, raise_on_error)return execute(conn, stack, raise_on_error)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3894, in _execute_transaction
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3978, in parse_response
+    self.parse_response(connection, '_')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3978, in parse_response
+    self, connection, command_name, **options)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 915, in parse_response
+    self, connection, command_name, **options)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 739, in read_response
+    response = connection.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 324, in read_response
+    response = self._parser.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 256, in readline
+    raw = self._buffer.readline()
+    self._read_from_socket()  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 256, in readline
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 223, in _read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    self._read_from_socket()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 223, in _read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 3978, in parse_response
+    self, connection, command_name, **options)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 223, in _read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+Traceback (most recent call last):
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock = self._connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    raise err
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    sock = self._connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+        main()main()
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')    
+click.Group(commands=commands)(prog_name='bench')  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    main()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return self.main(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+        Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 580, in work
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.register_death()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/rq/worker.py", line 310, in register_death
+    p.execute()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+    self.shard_hint)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
+    self.shard_hint)
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/mieone/Downloads/frappe-practice/frappe-bench/env/lib/python3.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
